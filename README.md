@@ -1,7 +1,7 @@
 # Udemy Clone - HTML & CSS
 A responsive frontend clone of the Udemy learning platform, built with pure HTML & CSS. Perfect for practicing modern web layout techniques and responsive design principles.
 
-Preview Add screenshot link here
+Link:https://umesh-dayananda13.github.io/Udemy-clone/
 
 Features
 ✅ Udemy-inspired UI with a clean, professional design
