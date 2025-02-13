@@ -108,6 +108,7 @@ body{
 }
 .sale-image{
     border-bottom: black solid 1px;
+    flex-wrap:wrap;
 }
 .rc-card{
     width: 200px;
