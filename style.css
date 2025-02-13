@@ -50,6 +50,7 @@ body{
     align-items: center;
     padding: 10px;
     border-bottom: black solid 1px;
+    flex-wrap:wrap;
     
     
 }
