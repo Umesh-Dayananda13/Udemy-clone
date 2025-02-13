@@ -46,61 +46,16 @@ body{
 } 
 .categories{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px;
-    border-bottom: black solid 1px;
-    
-    
-    
+    border-bottom: solid ☐ black 1px;
+    justify-content: space-around;
 }
-.cat__1{
-    background-color: #a435f0;
-    color: white;
-    border-radius: 20px;
-    padding: 10px;
-    
 
-}
-.cat__2{
-    background-color: #a435f0;
+    .categories p{
+    background-color: #A435F0;
     color: white;
-    border-radius: 20px;
     padding: 10px;
-    
-
-}
-.cat__3{
-    background-color: #a435f0;
-    color: white;
-    border-radius: 20px;
-    padding: 10px;
-    
-
-}
-.cat__4{
-    background-color: #a435f0;
-    color: white;
-    border-radius: 20px;
-    padding: 10px;
-    
-
-}
-.cat__5{
-    background-color: #a435f0;
-    color: white;
-    border-radius: 20px;
-    padding: 10px;
-    
-
-}
-.cat__6{
-    background-color: #a435f0;
-    color: white;
-    border-radius: 20px;
-    padding: 10px;
-    
-
+    border-radius: 30px;
 }
 
 .sale-image img{
@@ -110,6 +65,7 @@ body{
 .sale-image{
     border-bottom: black solid 1px;
     flex-wrap:wrap;
+
 }
 .rc-card{
     width: 200px;
