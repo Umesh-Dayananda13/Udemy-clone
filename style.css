@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Gabarito',sans-serif; 
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content:space-between ;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+    
+}
+.navbar__s1__title{
+    color: #a435f0   ;
+}
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width:60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    
+
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display: flex ;
+    gap: 10px ;
+    align-items: center;
+    
+
+} 
+.categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: black solid 1px;
+    
+    
+}
+.cat__1{
+    background-color: #a435f0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    
+
+}
+.cat__2{
+    background-color: #a435f0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    
+
+}
+.cat__3{
+    background-color: #a435f0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    
+
+}
+.cat__4{
+    background-color: #a435f0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    
+
+}
+.cat__5{
+    background-color: #a435f0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    
+
+}
+.cat__6{
+    background-color: #a435f0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    
+
+}
+
+.sale-image img{
+    width: 1270px;
+    height: 400px;
+}
+.sale-image{
+    border-bottom: black solid 1px;
+}
+.rc-card{
+    width: 200px;
+    
+    
+    
+}
+rc{
+    padding: 10px;
+}
+
+.rc-card img{
+    width:100%;
+    height:50%;
+    
+}
+.rc-con{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+
+    
+}
+.topic{
+    padding: 10px;
+    
+}
+.topic-con{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.topic-con p{
+    padding: 10px;
+    border: solid black 1px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.pop{
+    padding: 10px;
+}
+.pop-con{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fotter{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+.fotter__one{
+    display: flex;
+    gap: 10px;
+    
+}
+.fotter__one p{
+    padding: 10px;
+}
+.fotter__two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
