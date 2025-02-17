@@ -12,6 +12,10 @@ body{
     border-bottom: solid black 1px;
     gap: 10px;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
     
 }
 .navbar__s1__title{
@@ -68,6 +72,7 @@ body{
 .sale-image{
     border-bottom: black solid 1px;
     flex-wrap:wrap;
+    position: relative;
 
 }
 .rc-card{
@@ -136,4 +141,30 @@ rc{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+}
+.sale-image__offer{
+    position: absolute;
+    top:50px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    left: 20px;
+}
+.learn{
+    position: relative;
+    cursor: pointer;
+    
+}
+.learn__pop{
+    position: absolute;
+    border: black solid 1px;
+    background-color: white;
+    color: black;
+    top: 4git0px;
+    display: none;
+    padding: 10px;
+    
+}
+.learn:hover .learn__pop{
+    display: block;
 }
