@@ -61,6 +61,8 @@ body{
     color: white;
     padding: 10px;
     border-radius: 30px;
+    border: #A435F0 1px solid;
+    cursor: pointer;
         
         
 }
@@ -149,6 +151,11 @@ rc{
     background-color: white;
     color: black;
     left: 20px;
+    animation-name: offer;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    
 }
 .learn{
     position: relative;
@@ -168,3 +175,22 @@ rc{
 .learn:hover .learn__pop{
     display: block;
 }
+@keyframes offer {
+    
+
+    0%{
+        transform: scale(0);
+        opacity: 0;
+
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.categories p:hover{
+    background-color: transparent;
+    color: #A435F0;
+    border: #A435F0 1px solid;
+}
+
